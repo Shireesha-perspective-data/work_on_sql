@@ -1,4 +1,5 @@
 /* NOT Operator*/
+
 select * from sakila.actor  /* selecting the complete data from the actor table from the sakila database */
 where not actor_id>50 or first_name like "s%";  /* specifing the condition */
 
